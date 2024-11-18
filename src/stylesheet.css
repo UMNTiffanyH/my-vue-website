@@ -16,6 +16,10 @@ header, footer, nav {
 
     a {
         color: white;
+        &.router-link-active {
+            text-transform: uppercase;
+            font-weight: bold;
+        }
     }
 
     a:hover {
@@ -47,10 +51,15 @@ section.main {
         justify-self: center;
     }
 
+    div.explain {
+        border-bottom: white solid 2px;
+    }
+
     div.cards {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        border-bottom: white solid 2px;
 
         .card {
             display: flex;

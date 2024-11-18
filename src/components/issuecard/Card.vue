@@ -35,13 +35,15 @@ defineProps( {
 <template>
   <section class="card">
     <div class="cover"></div>
+    <section class = "information">
     <div class="title">{{ title }}</div>
       <span class="number">{{ issuenumber }}</span>
+    <div class="genre">{{ genre }}</div>
 
     <aside>
-      <div>{{ genre }}</div>
-      <div class="summary">{{summary}}</div>
+      <div>{{summary}}</div>
     </aside>
+    </section>
   </section>
 
 </template>
@@ -57,9 +59,18 @@ section.card {
   margin: 0.5rem;
   background-color: white;
 
-  .summary {
-    padding: 0.5rem;
-    font-size: 12px;
+  section.information {
+      .title, .number {
+      font-weight: bold;
+    }
+
+    .genre {
+      font-weight: lighter;
+    }
+
+    aside {
+      font-size: 12px;
+    }
   }
 
   &:hover {
@@ -69,7 +80,10 @@ section.card {
 
   .cover {
     min-width: 100px;
+    max-width: 150px;
     min-height: 150px;
+    max-height: 200px;
+    background-color: #888888;
 
     img {
       width: 100%;
@@ -81,14 +95,22 @@ section.card {
 
   /* desktop */
   @media (width >= 600px) {
+    section.card {
+      display: flex;
+      flex-flow: wrap row;
+    }
 
   }
 
   /*desktop viewports*/
   @media (width >= 800px) {
-
+    section.card {
+      display: flex;
+      flex-flow: wrap row;
+    }
   }
 }
+
 
 
 </style>

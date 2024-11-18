@@ -9,7 +9,7 @@ import Card from "./issuecard/Card.vue";
     <div class="content">
       <div class="explain">
         <h1>Welcome to Xerno!</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>Xerno is an indie creative database that takes inspiration from hero comics, modern manga, tv shows, and many other forms of media. This is an unofficial, collaborative indie work made by a team of writers and artists who are doing this as a passion project, with the sole purpose of creating enjoying stories. Thank you!</p>
       </div>
 
       <h1> Main Arcs </h1>
@@ -30,22 +30,9 @@ import Card from "./issuecard/Card.vue";
           summary="summary"/>
     </div>
 
-      <h1> Main Arcs </h1>
+      <h1> Solo Comics </h1>
+
       <div class="cards">
-        <card title="Bolt and the Raging Storm"
-              genre="Action/ Drama"
-              issuenumber="#01"
-              summary="summary"/>
-
-        <card title="Iron Maiden"
-              genre="Sci Fi/ Cyberpunk"
-              issuenumber="#01"
-              summary="summary"/>
-
-        <card title="Sketch: Homegrown Hero"
-              genre="Modern Fantasy/ Supernatural"
-              issuenumber="#01"
-              summary="summary"/>
       </div>
     </div>
   </primary-template>

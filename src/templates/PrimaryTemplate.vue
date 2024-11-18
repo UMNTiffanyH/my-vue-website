@@ -2,6 +2,8 @@
 import Home from "../components/Home.vue";
 import About from "../components/About.vue";
 import MainArcs from "../components/mainArcs.vue";
+import SoloComics from "../components/soloComics.vue";
+import CharacterDatabase from "../components/characterDatabase.vue";
 
 </script>
 
@@ -10,9 +12,9 @@ import MainArcs from "../components/mainArcs.vue";
     <header>XERNO</header>
     <nav>
       <router-link :to="{name: 'Home'}">Home</router-link>
-      <router-link :to="{name: 'MainArcs'}">MainArcs</router-link>
-      <a href="#">Solo Comics</a>
-      <a href="#">Character Database</a>
+      <router-link :to="{name: 'MainArcs'}">Main Arcs</router-link>
+      <router-link :to="{name: 'SoloComics'}">Solo Comics</router-link>
+      <router-link :to="{name: 'CharacterDatabase'}">Character Database</router-link>
       <router-link :to="{name: 'About'}">About</router-link>
     </nav>
 
@@ -34,5 +36,9 @@ import MainArcs from "../components/mainArcs.vue";
 </template>
 
 <style scoped>
+section.primary-template {
+  nav {
 
+  }
+}
 </style>
