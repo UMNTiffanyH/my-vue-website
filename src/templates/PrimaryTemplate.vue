@@ -1,0 +1,38 @@
+<script setup>
+import Home from "../components/Home.vue";
+import About from "../components/About.vue";
+import MainArcs from "../components/mainArcs.vue";
+
+</script>
+
+<template>
+  <section class="primary-template">
+    <header>XERNO</header>
+    <nav>
+      <router-link :to="{name: 'Home'}">Home</router-link>
+      <router-link :to="{name: 'MainArcs'}">MainArcs</router-link>
+      <a href="#">Solo Comics</a>
+      <a href="#">Character Database</a>
+      <router-link :to="{name: 'About'}">About</router-link>
+    </nav>
+
+    <div class="contentXXXXX">
+      <div class="explain">
+      </div>
+    </div>
+
+    <section class="main">
+      <slot></slot>
+    </section>
+
+  <footer>
+    <div class="copyright">XERNO</div>
+    <a href="#">Back to top page</a>
+  </footer>
+  </section>
+
+</template>
+
+<style scoped>
+
+</style>
