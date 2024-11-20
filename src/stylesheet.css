@@ -52,6 +52,7 @@ section.main {
     }
 
     div.explain {
+        padding: 0 0 0.5rem 0;
         border-bottom: white solid 2px;
     }
 
@@ -60,6 +61,7 @@ section.main {
         flex-direction: row;
         justify-content: space-around;
         border-bottom: white solid 2px;
+        margin-bottom: 0.5rem;
 
         .card {
             display: flex;

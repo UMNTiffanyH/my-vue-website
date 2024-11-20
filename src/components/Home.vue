@@ -2,6 +2,8 @@
 
 import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
 import Card from "./issuecard/Card.vue";
+import book_data from "../book_data.js";
+
 </script>
 
 <template>
@@ -9,7 +11,11 @@ import Card from "./issuecard/Card.vue";
     <div class="content">
       <div class="explain">
         <h1>Welcome to Xerno!</h1>
-        <p>Xerno is an indie creative database that takes inspiration from hero comics, modern manga, tv shows, and many other forms of media. This is an unofficial, collaborative indie work made by a team of writers and artists who are doing this as a passion project, with the sole purpose of creating enjoying stories. Thank you!</p>
+        <p>Xerno is an indie creative database that takes inspiration from hero
+          comics, modern manga, tv shows, and many other forms of media. This is
+          an unofficial, collaborative indie work made by a team of writers and
+          artists who are doing this as a passion project, with the sole purpose
+          of creating enjoying stories. Thank you!</p>
       </div>
 
       <h1> Main Arcs </h1>
@@ -17,22 +23,35 @@ import Card from "./issuecard/Card.vue";
     <card title="Bolt and the Raging Storm"
           genre="Action/ Drama"
           issuenumber="#01"
-          summary="summary"/>
+    />
 
       <card title="Iron Maiden"
             genre="Sci Fi/ Cyberpunk"
             issuenumber="#01"
-            summary="summary"/>
+      />
 
     <card title="Sketch: Homegrown Hero"
           genre="Modern Fantasy/ Supernatural"
           issuenumber="#01"
-          summary="summary"/>
+    />
     </div>
 
       <h1> Solo Comics </h1>
-
       <div class="cards">
+        <card title=""
+              genre="Action/ Drama"
+              issuenumber="#01"
+        />
+
+        <card title="Iron Maiden"
+              genre="Sci Fi/ Cyberpunk"
+              issuenumber="#01"
+        />
+
+        <card title="Sketch: Homegrown Hero"
+              genre="Modern Fantasy/ Supernatural"
+              issuenumber="#01"
+        />
       </div>
     </div>
   </primary-template>

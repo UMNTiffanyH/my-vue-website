@@ -10,7 +10,11 @@ import Card from "./issuecard/Card.vue";
   <div class="content">
   <div class ="explain">
     <h1>MAIN ARCS</h1>
-    <body>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</body>
+    <p>Much like how comic books build up to a grand, overarching narrative or
+      superhero movies being connected to a larger cinematic universe, main
+    arcs are a series of stories that help build up the main foundation of
+    the Xerno universe. Each arc focuses on a different main character as
+    they navigate different conflicts happening in the country of Minerva. </p>
   </div>
 
     <h1> Current Arc </h1>

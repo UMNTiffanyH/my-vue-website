@@ -20,7 +20,13 @@ onMounted(() => {
 
 <template>
 <primary-template v-if="book">
-  <h1>{{book.title}}</h1>
+      <h1>{{ title }}</h1>
+      <p>Issue: {{  issuenumber }}</p>
+      <p v-html="book.summary.replace(/\n{2}/g, '</p><p>')"></p>
+
+      <cta-button>
+        <router-link :to="{ name: 'Home' }">Xerno</router-link>
+      </cta-button>
 
 </primary-template>
 </template>

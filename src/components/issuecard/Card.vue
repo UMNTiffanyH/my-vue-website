@@ -1,6 +1,7 @@
 <script setup>
 
 import book_data from "../../book_data.js";
+import router from "../../router.js";
 
 defineProps( {
   title: {
@@ -30,20 +31,20 @@ defineProps( {
   }
 })
 
+const goToStoryDetails = (id) => {
+  router.push({
+    name: 'StoryDetails',
+    params: {
+      id: id
+    },
+  })
+}
+
 </script>
 
 <template>
   <section class="card">
-    <div class="cover"></div>
-    <section class = "information">
-    <div class="title">{{ title }}</div>
-      <span class="number">{{ issuenumber }}</span>
-    <div class="genre">{{ genre }}</div>
 
-    <aside>
-      <div>{{summary}}</div>
-    </aside>
-    </section>
   </section>
 
 </template>
@@ -111,6 +112,17 @@ section.card {
   }
 }
 
+/*     <div class="cover">
+      <img :src="book_data.cover" :alt="title(book_data)"/>
+    </div>
+    <section class = "information">
+      <h4 v-text="title(book_data)"/>
+      <p>number: {{ book_data.number }}</p>
+      <p>genre: {{ book_data.genre }}</p>
 
+      <aside>
+        <div>{{summary}}</div>
+      </aside>
+    </section>
 
 </style>

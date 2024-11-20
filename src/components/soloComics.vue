@@ -9,7 +9,9 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
     <div class="content">
       <div class ="explain">
         <h1>SOLO COMICS</h1>
-        <body>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</body>
+        <p>As opposed to main arcs, solo comics are independant short stories
+        that focus on characters outside of the main arcs. These stories help
+        further build up the Xernoverse and the people living in that world.</p>
       </div>
 
       <h1> Current Arc </h1>

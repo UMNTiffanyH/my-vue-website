@@ -5,7 +5,12 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
 
 <template>
   <primary-template>
-    <h1>This is the about page!</h1>
+    <div class="content">
+      <div class ="explain">
+        <h1>CHARACTER DATABASE</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+    </div>
   </primary-template>
 </template>
 

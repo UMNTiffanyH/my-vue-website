@@ -8,8 +8,8 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
   <primary-template>
     <div class="content">
       <div class ="explain">
-        <h1>Character Database</h1>
-        <body>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</body>
+        <h1>CHARACTER DATABASE</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       </div>
 
       <h1> Current Arc </h1>

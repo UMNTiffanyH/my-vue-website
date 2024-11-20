@@ -18,7 +18,7 @@ import CharacterDatabase from "../components/characterDatabase.vue";
       <router-link :to="{name: 'About'}">About</router-link>
     </nav>
 
-    <div class="contentXXXXX">
+    <div class="content">
       <div class="explain">
       </div>
     </div>
