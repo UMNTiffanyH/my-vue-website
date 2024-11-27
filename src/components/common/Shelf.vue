@@ -7,40 +7,38 @@ defineProps({
     required: true
   },
   title: {
-    type: Array,
+    type: String,
     required: true
   }
 })
-
-import book_data from "../../book_data.js";
 </script>
 
 <template>
   <section class="shelf">
-    <h4 v-text="title"/>
-    <p v-for="(item, index) in items" :key="index">
-      <dynamic-card :data="book_data.data[item]"/>
-    </p>
+    <div class="books">
+      <dynamic-card class="card" :data="book" v-for="(book, index) in items" :key="index"/>
+    </div>
   </section>
 </template>
 
 <style scoped>
 section.shelf {
-  display: flex;
-  justify-content: space-around;
-  border-bottom: white solid 2px;
-  margin-bottom: 0.5rem;
-}
+  /* Mobile first */
+  div.books {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 0.5rem;
+    border-bottom: white solid 2px;
+    gap: 1rem;
+    padding:0.5rem;
 
-p {
-  display: flex;
-  min-height: 100px;
-  width: 100%;
-  border: 1px solid lightblue;
-  border-radius: 10px;
-  padding: 0.5rem;
-  margin: 0.5rem;
-  background-color: white;
+    .card {
+      display: flex;
+      width: 30%;
+      max-width: 200px;
+      row-gap: 1rem;
+    }
+  }
 }
-
 </style>

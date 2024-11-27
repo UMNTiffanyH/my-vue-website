@@ -21,54 +21,15 @@ import ShelfByType from "./common/ShelfByType.vue";
       </div>
 
       <h1> Main Arcs </h1>
-      <div class="cards">
-    <card title="Bolt and the Raging Storm"
-          genre="Action/ Drama"
-          issuenumber="#01"
-          cover="cover url1"
-    />
 
-      <card title="Iron Maiden"
-            genre="Sci Fi/ Cyberpunk"
-            issuenumber="#01"
-            cover="cover url1"
-      />
-
-    <card title="Sketch: Homegrown Hero"
-          genre="Modern Fantasy/ Supernatural"
-          issuenumber="#01"
-          cover="cover url1"
-    />
-    </div>
+      <shelf-by-type :type="'series'"/>
 
       <h1> Solo Comics </h1>
 
-      <shelf :items="[4, 5, 6]"/>
+      <shelf-by-type :type="'standalone'"/>
 
-      <shelf-by-type type="standalone"/>
-
-      <shelf :items="[1, 2, 3]"/>
-
-      <div class="cards">
-        <card title="Bolt and the Raging Storm"
-              genre="Action/ Drama"
-              issuenumber="#01"
-              cover="cover url1"
-        />
-
-        <card title="Iron Maiden"
-              genre="Sci Fi/ Cyberpunk"
-              issuenumber="#01"
-              cover="cover url1"
-        />
-
-        <card title="Sketch: Homegrown Hero"
-              genre="Modern Fantasy/ Supernatural"
-              issuenumber="#01"
-              cover="cover url1"
-        />
       </div>
-    </div>
+
   </primary-template>
 </template>
 

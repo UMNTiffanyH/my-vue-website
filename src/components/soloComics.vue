@@ -2,6 +2,7 @@
 
 import Card from "./issuecard/Card.vue";
 import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
+import ShelfByType from "./common/ShelfByType.vue";
 </script>
 
 <template>
@@ -14,24 +15,10 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
         further build up the Xernoverse and the people living in that world.</p>
       </div>
 
-      <h1> Current Arc </h1>
-      <div class="cards">
-        <card title="Bolt and the Raging Storm"
-              genre="Action/ Drama"
-              issuenumber="#01"
-              summary="summary"/>
+      <h1> Solo Comics </h1>
+      <shelf-by-type :type="'standalone'"/>
 
-        <card title="Iron Maiden"
-              genre="Sci Fi/ Cyberpunk"
-              issuenumber="#01"
-              summary="summary"/>
-
-        <card title="Sketch: Homegrown Hero"
-              genre="Modern Fantasy/ Supernatural"
-              issuenumber="#01"
-              summary="summary"/>
       </div>
-    </div>
   </primary-template>
 </template>
 

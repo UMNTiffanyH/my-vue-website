@@ -9,39 +9,32 @@ defineProps({
 
 <template>
   <section class="dynamic-card">
-    <div class="left">
-      <img :src="data.cover" />
-    </div>
-
-    <div class="right">
-      {{ data.title }}
-      {{ data.number }}
-      {{ data.genre}}
-    </div>
+    <img :src="data.cover"/>
+    <h4>{{ data.title }} {{ data.number }}</h4>
   </section>
+
 </template>
 
 <style scoped>
 section.dynamic-card {
+  /* Mobile first */
   display: flex;
-  flex-flow: wrap column ;
-}
+  flex-flow: column;
 
-
-/* tablet viewports */
-@media (width >= 600px) {
-  section.dynamic-card {
-    display: flex;
-    flex-flow: wrap row;
-
-
+  h4 {
+    display: none;
+    margin: 0;
   }
-}
-/*desktop viewports*/
-@media (width >= 800px) {
-  section.dynamic-card {
-    display: flex;
-    flex-flow: wrap row;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  /* tablet viewports */
+  @media (width >= 600px) {
+    h4 {
+      display: unset;
+    }
   }
 }
 </style>

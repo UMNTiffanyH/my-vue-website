@@ -2,7 +2,7 @@ const data = [
     //id,cover,title,number,genre,summary
     {
         "id": "1",
-        "cover": "https://robohash.org/etaspernaturillo.png?size=80x35&set=set1,",
+        "cover": "http://dummyimage.com/100x133.png/cc0000/ffffff,",
         "title": "Bolt and the Raging Storm",
         "type": "series",
         "number": "#01",
@@ -11,7 +11,7 @@ const data = [
     },
     {
         "id": "2",
-        "cover": "https://robohash.org/etaspernaturillo.png?size=80x35&set=set1,",
+        "cover": "http://dummyimage.com/100x133.png/cc0000/ffffff,",
         "title": "Bolt and the Raging Storm",
         "type": "series",
         "number": "#02",
@@ -20,7 +20,7 @@ const data = [
     },
     {
         "id": "3",
-        "cover": "https://robohash.org/etaspernaturillo.png?size=80x35&set=set1,",
+        "cover": "http://dummyimage.com/100x133.png/cc0000/ffffff,",
         "title": "Bolt and the Raging Storm",
         "type": "series",
         "number": "#03",
@@ -29,7 +29,7 @@ const data = [
     },
     {
         "id": "4",
-        "cover": "https://robohash.org/etaspernaturillo.png?size=80x35&set=set1,",
+        "cover": "http://dummyimage.com/100x133.png/cc0000/ffffff,",
         "title": "Iron Maiden",
         "type": "series",
         "number": "#01",
@@ -38,7 +38,7 @@ const data = [
     },
     {
         "id": "5",
-        "cover": "https://robohash.org/etaspernaturillo.png?size=80x35&set=set1,",
+        "cover": "http://dummyimage.com/100x133.png/cc0000/ffffff,",
         "title": "All Stars",
         "type": "series",
         "number": "#01",
@@ -47,7 +47,7 @@ const data = [
     },
     {
         "id": "6",
-        "cover": "https://robohash.org/etaspernaturillo.png?size=80x35&set=set1,",
+        "cover": "http://dummyimage.com/100x133.png/cc0000/ffffff,",
         "title": "All Stars",
         "type": "series",
         "number": "#02",
@@ -56,7 +56,7 @@ const data = [
     },
     {
         "id": "7",
-        "cover": "https://robohash.org/etaspernaturillo.png?size=80x35&set=set1,",
+        "cover": "http://dummyimage.com/100x133.png/cc0000/ffffff,",
         "title": "The Toy Master",
         "type": "standalone",
         "number": "Solo",
@@ -65,7 +65,7 @@ const data = [
     },
     {
         "id": "8",
-        "cover": "https://robohash.org/etaspernaturillo.png?size=80x35&set=set1,",
+        "cover": "http://dummyimage.com/100x133.png/cc0000/ffffff,",
         "title": "Death and the Raven",
         "type": "standalone",
         "number": "Solo",
@@ -74,9 +74,9 @@ const data = [
     },
     {
         "id": "9",
-        "cover": "https://robohash.org/etaspernaturillo.png?size=80x35&set=set1,",
+        "cover": "http://dummyimage.com/100x133.png/cc0000/ffffff,",
         "title": "Sketch: Homegrown Hero",
-        "type": "standalone",
+        "type": "series",
         "number": "#01",
         "genre": "Modern Fantasy/ Supernatural",
         "summary": "Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus."

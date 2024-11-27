@@ -7,22 +7,22 @@ let filteredBooks = ref([])
 let isFiltered = ref(false)
 
 const props = defineProps({
-  type: {
+  title: {
     type: String,
     required: true
   }
 })
 
-let title = 'All ' + props.type + ' books'
+let title = 'All ' + props.title + ' books'
 
 onMounted(() => {
-  filteredBooks = book_data.data.filter(book => book.type === props.type)
+  filteredBooks = book_data.data.filter(book => book.title === props.title)
   isFiltered.value = true;
 })
 </script>
 
 <template>
-  <section class="shelf-by-type" v-if="isFiltered">
+  <section class="shelf-by-title" v-if="isFiltered">
     <shelf :items="filteredBooks" :title="title"/>
   </section>
 

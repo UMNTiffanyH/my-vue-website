@@ -1,8 +1,7 @@
 <script setup>
 
 import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
-import Card from "./issuecard/Card.vue";
-
+import ShelfByTitle from "./common/ShelfByTitle.vue";
 </script>
 
 <template>
@@ -18,22 +17,14 @@ import Card from "./issuecard/Card.vue";
   </div>
 
     <h1> Current Arc </h1>
-    <div class="cards">
-    <card title="Bolt and the Raging Storm"
-          genre="Action/ Drama"
-          issuenumber="#01"
-          summary="summary"/>
+    <shelf-by-title :title="'Iron Maiden'"/>
 
-    <card title="Iron Maiden"
-          genre="Sci Fi/ Cyberpunk"
-          issuenumber="#01"
-          summary="summary"/>
+    <h1> Bolt and the Raging Storm </h1>
+    <shelf-by-title :title="'Bolt and the Raging Storm'"/>
 
-    <card title="Sketch: Homegrown Hero"
-          genre="Modern Fantasy/ Supernatural"
-          issuenumber="#01"
-          summary="summary"/>
-  </div>
+    <h1> All Stars </h1>
+    <shelf-by-title :title="'All Stars'"/>
+
   </div>
 </primary-template>
 </template>
