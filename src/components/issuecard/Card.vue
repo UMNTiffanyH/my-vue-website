@@ -49,10 +49,6 @@ const goToStoryDetails = (id) => {
       <h4 v-text="title"/>
       <p>number: {{ number }}</p>
       <p>genre: {{ genre }}</p>
-
-      <aside>
-        <div>{{summary}}</div>
-      </aside>
     </section>
   </section>
 
