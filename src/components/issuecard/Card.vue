@@ -1,32 +1,30 @@
 <script setup>
 
-import book_data from "../../book_data.js";
-import router from "../../router.js";
+import {useRouter} from "vue-router";
+
+const router = useRouter()
+// import book_data from "../../book_data.js";
 
 defineProps( {
   title: {
     type: String,
     required: true
   },
-
   genre: {
     type: String,
     required: true
   },
-
-  issuenumber: {
+  number: {
     type: String,
     required: false,
     default: '#01'
   },
-
   summary: {
     type: String,
     required: false,
   },
-
   cover:{
-    type: Object,
+    type: String,
     required: true,
   }
 })
@@ -44,7 +42,18 @@ const goToStoryDetails = (id) => {
 
 <template>
   <section class="card">
+    <div class="cover">
+      <img :src="cover" :alt="title"/>
+    </div>
+    <section class = "information">
+      <h4 v-text="title"/>
+      <p>number: {{ number }}</p>
+      <p>genre: {{ genre }}</p>
 
+      <aside>
+        <div>{{summary}}</div>
+      </aside>
+    </section>
   </section>
 
 </template>
@@ -94,7 +103,7 @@ section.card {
     }
   }
 
-  /* desktop */
+  /* tablet viewports */
   @media (width >= 600px) {
     section.card {
       display: flex;
@@ -112,17 +121,6 @@ section.card {
   }
 }
 
-/*     <div class="cover">
-      <img :src="book_data.cover" :alt="title(book_data)"/>
-    </div>
-    <section class = "information">
-      <h4 v-text="title(book_data)"/>
-      <p>number: {{ book_data.number }}</p>
-      <p>genre: {{ book_data.genre }}</p>
 
-      <aside>
-        <div>{{summary}}</div>
-      </aside>
-    </section>
 
 </style>
