@@ -29,9 +29,9 @@ defineProps( {
   }
 })
 
-const goToStoryDetails = (id) => {
+const goToStory = (id) => {
   router.push({
-    name: 'StoryDetails',
+    name: 'Story',
     params: {
       id: id
     },
@@ -48,7 +48,6 @@ const goToStoryDetails = (id) => {
     <section class = "information">
       <h4 v-text="title"/>
       <p>number: {{ number }}</p>
-      <p>genre: {{ genre }}</p>
     </section>
   </section>
 
@@ -66,14 +65,6 @@ section.card {
   background-color: white;
 
   section.information {
-      .title, .number {
-      font-weight: bold;
-    }
-
-    .genre {
-      font-weight: lighter;
-    }
-
     aside {
       font-size: 12px;
     }
