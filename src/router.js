@@ -37,17 +37,8 @@ const router = createRouter( {
         },
         {
             path: '/story',
-            name: 'story',
-            children: [
-                {
-                    path: 'details/:id',
-                    name: 'storyDetails',
-                    component: Story,
-                    meta: {
-                        title: 'StoryDetails',
-                    }
-                }
-            ]
+            name: 'Story',
+            component: Story
         }
 
     ]

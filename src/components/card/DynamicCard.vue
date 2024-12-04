@@ -9,7 +9,7 @@ defineProps({
 
 <template>
   <section class="dynamic-card">
-    <img :src="data.cover"/>
+    <router-link :to="{name: 'Story'}"><img :src="data.cover" :alt="title"/></router-link>
     <h4>{{ data.title }} {{ data.number }}</h4>
   </section>
 

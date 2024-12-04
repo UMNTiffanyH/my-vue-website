@@ -1,4 +1,4 @@
-<script setup>
+﻿<script setup>
 import Home from "../components/Home.vue";
 import About from "../components/About.vue";
 import MainArcs from "../components/mainArcs.vue";

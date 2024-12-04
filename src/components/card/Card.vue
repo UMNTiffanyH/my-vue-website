@@ -1,9 +1,7 @@
 <script setup>
 
 import {useRouter} from "vue-router";
-
 const router = useRouter()
-// import book_data from "../../book_data.js";
 
 defineProps( {
   title: {

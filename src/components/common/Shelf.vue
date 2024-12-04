@@ -1,5 +1,5 @@
 <script setup>
-import DynamicCard from "../issuecard/DynamicCard.vue";
+import DynamicCard from "../card/DynamicCard.vue";
 
 defineProps({
   items: {

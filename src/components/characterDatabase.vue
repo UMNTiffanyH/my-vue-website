@@ -1,11 +1,7 @@
 <script setup>
 import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
-defineProps( {
-  data: {
-    name: String,
-    required: true
-  }
-})
+
+
 </script>
 
 <template>
@@ -17,40 +13,31 @@ defineProps( {
       </div>
 
       <h1> Golden Collective </h1>
-      <section class="shelf">
-        <div class="character">
-          <img :src="data.headshot"/>
-          <h4>{{ data.name }} {{ data.alias }}</h4>
-        </div>
-      </section>
+      <div class="character">
+        <character name="Bolt and the Raging Storm"
+              alias="Action/ Drama"
+              age="#01"
+              alignment="summary"/>
+        <character name="Bolt and the Raging Storm"
+              alias="Action/ Drama"
+              age="#01"
+              alignment="summary"/>
+        <character name="Bolt and the Raging Storm"
+              alias="Action/ Drama"
+              age="#01"
+              alignment="summary"/>
+      </div>
     </div>
   </primary-template>
 </template>
 
 <style scoped>
 .character {
-  display: flex;
-  min-height: 100px;
-  width: 100%;
-  border: 1px solid lightblue;
-  border-radius: 10px;
-  padding: 0.5rem;
-  margin: 0.5rem;
-  background-color: white;
-  }
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: white solid 2px;
 
-  &:hover {
-    border-color: black;
-    cursor: pointer;
-  }
-
-  /* tablet viewports */
-  @media (width >= 600px) {
-    section.card {
-      display: flex;
-      flex-flow: wrap row;
     }
-  }
-
 
 </style>

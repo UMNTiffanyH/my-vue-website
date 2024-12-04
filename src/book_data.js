@@ -2,7 +2,7 @@ const data = [
     //id,cover,title, type, number,genre,summary
     {
         "id": "1",
-        "cover": "http://dummyimage.com/100x133.png/cc0000/ffffff,",
+        "cover": "http://dummyimage.com/120x163.png/cc0000/ffffff,",
         "title": "Bolt and the Raging Storm",
         "type": "series",
         "number": "#01",
@@ -12,7 +12,7 @@ const data = [
     },
     {
         "id": "2",
-        "cover": "http://dummyimage.com/100x133.png/cc0000/ffffff,",
+        "cover": "http://dummyimage.com/120x163.png/cc0000/ffffff,",
         "title": "Bolt and the Raging Storm",
         "type": "series",
         "number": "#02",
@@ -22,7 +22,7 @@ const data = [
     },
     {
         "id": "3",
-        "cover": "http://dummyimage.com/100x133.png/cc0000/ffffff,",
+        "cover": "http://dummyimage.com/120x163.png/cc0000/ffffff,",
         "title": "Bolt and the Raging Storm",
         "type": "series",
         "number": "#03",
@@ -32,7 +32,7 @@ const data = [
     },
     {
         "id": "4",
-        "cover": "http://dummyimage.com/100x133.png/cc0000/ffffff,",
+        "cover": "http://dummyimage.com/120x163.png/cc0000/ffffff,",
         "title": "Iron Maiden",
         "type": "series",
         "number": "#01",
@@ -42,7 +42,7 @@ const data = [
     },
     {
         "id": "5",
-        "cover": "http://dummyimage.com/100x133.png/cc0000/ffffff,",
+        "cover": "http://dummyimage.com/120x163.png/cc0000/ffffff,",
         "title": "All Stars",
         "type": "series",
         "number": "#01",
@@ -52,7 +52,7 @@ const data = [
     },
     {
         "id": "6",
-        "cover": "http://dummyimage.com/100x133.png/cc0000/ffffff,",
+        "cover": "http://dummyimage.com/120x163.png/cc0000/ffffff,",
         "title": "All Stars",
         "type": "series",
         "number": "#02",
@@ -62,7 +62,7 @@ const data = [
     },
     {
         "id": "7",
-        "cover": "http://dummyimage.com/100x133.png/cc0000/ffffff,",
+        "cover": "http://dummyimage.com/120x163.png/cc0000/ffffff,",
         "title": "The Toy Master",
         "type": "standalone",
         "number": "Solo",
@@ -72,7 +72,7 @@ const data = [
     },
     {
         "id": "8",
-        "cover": "http://dummyimage.com/100x133.png/cc0000/ffffff,",
+        "cover": "http://dummyimage.com/120x163.png/cc0000/ffffff,",
         "title": "Death and the Raven",
         "type": "standalone",
         "number": "Solo",
@@ -82,7 +82,7 @@ const data = [
     },
     {
         "id": "9",
-        "cover": "http://dummyimage.com/100x133.png/cc0000/ffffff,",
+        "cover": "http://dummyimage.com/120x163.png/cc0000/ffffff,",
         "title": "Sketch: Homegrown Hero",
         "type": "series",
         "number": "#01",

@@ -1,6 +1,4 @@
 <script setup>
-
-import Card from "./issuecard/Card.vue";
 import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
 import ShelfByType from "./common/ShelfByType.vue";
 </script>

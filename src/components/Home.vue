@@ -1,9 +1,6 @@
 <script setup>
 
 import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
-import Card from "./issuecard/Card.vue";
-import book_data from "../book_data.js";
-import Shelf from "./common/Shelf.vue";
 import ShelfByType from "./common/ShelfByType.vue";
 
 </script>
