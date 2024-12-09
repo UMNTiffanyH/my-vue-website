@@ -1,6 +1,6 @@
 <script setup>
 import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
-
+import Character from "./card/Character.vue";
 
 </script>
 
@@ -13,31 +13,66 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
       </div>
 
       <h1> Golden Collective </h1>
-      <div class="character">
-        <character name="Bolt and the Raging Storm"
-              alias="Action/ Drama"
-              age="#01"
-              alignment="summary"/>
-        <character name="Bolt and the Raging Storm"
-              alias="Action/ Drama"
-              age="#01"
-              alignment="summary"/>
-        <character name="Bolt and the Raging Storm"
-              alias="Action/ Drama"
-              age="#01"
-              alignment="summary"/>
+      <div class="Characters">
+        <character name="Brandon Harvey"
+              alias="Voltage"
+              age="16"
+              alignment="Hero"/>
+        <character name="Adrian Rodriguez"
+              alias="Sketch"
+              age="17"
+              alignment="Hero"/>
+        <character name="Alicia Williams"
+              alias="Iron Maiden"
+              age="16"
+              alignment="Hero"/>
+      </div>
+
+      <h1> The Summit </h1>
+      <div class="Characters">
+        <character name="Atlas Cassius"
+                   alias="The Typhoon"
+                   age="16"
+                   alignment="Villain"/>
+        <character name="Beatrice Cassius"
+                   alias="Beat/Death's Raven"
+                   age="16"
+                   alignment="Anti-Villain"/>
+      </div>
+
+      <h1> New Tomorrow </h1>
+      <div class="Characters">
+        <character name="Unknown"
+                   alias="Morrow "
+                   age="43"
+                   alignment="Villain"/>
       </div>
     </div>
   </primary-template>
 </template>
 
 <style scoped>
-.character {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    border-bottom: white solid 2px;
+div.Characters {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-bottom: white solid 2px;
+  margin-bottom: 0.5rem;
+}
 
-    }
+/* tablet */
+@media (width >= 600px) {
+  div.Characters {
+    display: flex;
+    flex-flow: wrap row;
+  }
+}
+/*desktop viewports*/
+@media (width >= 800px) {
+  div.Characters {
+    display: flex;
+    flex-flow: wrap row;
+  }
+}
 
 </style>

@@ -70,7 +70,6 @@ section.main {
     }
 
     div.cards {
-        /*display: flex;*/
         flex-direction: row;
         justify-content: space-around;
         border-bottom: white solid 2px;
