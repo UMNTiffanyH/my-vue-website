@@ -8,7 +8,7 @@ import Character from "./card/Character.vue";
   <primary-template>
     <div class="content">
       <div class ="explain">
-        <h1>CHARACTER DATABASE</h1>
+        <h1><img src="../assets/superhero.svg" alt="Superhero SVG"/> CHARACTER DATABASE</h1>
         <p>Losing track on who is who? Everyone is the main character in their own story, some more than others. Take a look to take a further in depth look into these characters. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       </div>
 

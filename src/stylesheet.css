@@ -62,6 +62,10 @@ section.main {
 
     h1 {
         justify-self: center;
+
+        img{
+            width: 10%
+        }
     }
 
     div.explain {
