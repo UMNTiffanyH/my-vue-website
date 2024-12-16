@@ -1,12 +1,14 @@
+/* whole website */
 body {
     font-size: 12px;
     margin: 0;
-    font-family: "Helvetica Neue", sans-serif;
+    font-family: "Avenir", sans-serif;
     background-color: lightgrey;
     display: flex;
     justify-content: left;
 }
 
+/* background & layouts */
 header, footer, nav {
     align-content: center;
     background:darkblue;
@@ -28,6 +30,7 @@ header, footer, nav {
     }
 }
 
+/*just the Xerno logo/header itself*/
 header {
     display: flex;
     justify-content: center;
@@ -71,19 +74,6 @@ section.main {
     div.explain {
         padding: 0 0 0.5rem 0;
         border-bottom: white solid 2px;
-    }
-
-    div.cards {
-        flex-direction: row;
-        justify-content: space-around;
-        border-bottom: white solid 2px;
-        margin-bottom: 1rem;
-
-        .card {
-            display: flex;
-            flex-direction: column;
-        }
-
     }
 }
 

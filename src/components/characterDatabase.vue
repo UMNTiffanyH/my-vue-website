@@ -67,12 +67,5 @@ div.Characters {
     flex-flow: wrap row;
   }
 }
-/*desktop viewports*/
-@media (width >= 800px) {
-  div.Characters {
-    display: flex;
-    flex-flow: wrap row;
-  }
-}
 
 </style>

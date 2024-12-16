@@ -13,7 +13,6 @@ import ShelfByType from "./common/ShelfByType.vue";
         further build up the Xernoverse and the people living in that world.</p>
       </div>
 
-      <h1> Solo Comics </h1>
       <shelf-by-type :type="'standalone'"/>
 
       </div>
