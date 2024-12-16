@@ -12,7 +12,7 @@ const book = book_data.data.filter(book => book.id === paramId)[0]
 onMounted(() => {
   if (!book) {
     router.push ({
-      name:'story'
+      name: 'Home'
     })
   }
 })
@@ -21,9 +21,11 @@ onMounted(() => {
 <template>
 <primary-template>
   <div class="content">
-    <div class ="explain">
-      <h1 v-text="book_data.title"/>
-      <p>Issue: {{  book_data.number }}</p>
+    <img src="../assets/openbook.svg" alt="Open Book SVG"/>
+    <div class="explain">
+      <h1 v-text="book.title"/>
+      <p>Issue: {{  book.number }}</p>
+      <p>Summary: {{  book.summary }}</p>
     </div>
     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at posuere est, vitae faucibus nisl. Suspendisse viverra leo nec erat fermentum, ut condimentum eros facilisis. Donec a molestie est. Cras id eleifend sem. Ut laoreet nisl non metus tristique, in consequat nisl varius. Maecenas imperdiet metus ac velit ultricies, vel venenatis dolor ornare. Integer a elementum ex. Vivamus et fringilla erat, in convallis odio. </p>
     <p> Aenean bibendum elit ultricies ipsum varius viverra. Curabitur eu interdum quam. Integer finibus enim id quam varius egestas porta non diam. Mauris sagittis blandit mauris sit amet posuere. Maecenas non diam ullamcorper, tincidunt risus vitae, feugiat erat. Cras rhoncus neque orci, at tempor sem maximus ut. Vivamus nec augue dapibus, pharetra felis vitae, fermentum ligula. Mauris vel fringilla nulla. Suspendisse eget fermentum massa. Vestibulum aliquam condimentum nisi ut aliquam.</p>
@@ -40,5 +42,14 @@ onMounted(() => {
 </template>
 
 <style scoped>
+h1{
+  margin: 0 0 0.5rem 0;
+}
 
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 4%;
+  }
 </style>

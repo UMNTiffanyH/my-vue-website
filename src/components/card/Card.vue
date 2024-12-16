@@ -1,9 +1,10 @@
 <script setup>
 
 import {useRouter} from "vue-router";
+
 const router = useRouter()
 
-defineProps( {
+defineProps({
   title: {
     type: String,
     required: true
@@ -21,7 +22,7 @@ defineProps( {
     type: String,
     required: false,
   },
-  cover:{
+  cover: {
     type: String,
     required: true,
   }
@@ -43,12 +44,11 @@ const goToStory = (id) => {
     <div class="cover">
       <img :src="cover" :alt="title"/>
     </div>
-    <section class = "information">
+    <section class="information">
       <h4 v-text="title"/>
       <p>number: {{ number }}</p>
     </section>
   </section>
-
 </template>
 
 <style scoped>
@@ -94,7 +94,6 @@ section.card {
       display: flex;
       flex-flow: wrap row;
     }
-
   }
 
   /*desktop viewports*/
@@ -105,7 +104,4 @@ section.card {
     }
   }
 }
-
-
-
 </style>

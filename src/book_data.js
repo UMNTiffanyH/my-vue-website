@@ -58,7 +58,7 @@ const data = [
         "number": "#02",
         "genre": "Superhero/Action",
         "status": "Complete",
-        "summary": "The fight for the world begins, but the Blood Moon Empire have a few tricks up their sleeves. In particular, a strange red element that allows them to"
+        "summary": "The fight for the world begins, but the Blood Moon Empire have a few tricks up their sleeves. In particular, a strange red element that allows them to cause heroes to go berserk!"
     },
     {
         "id": "7",

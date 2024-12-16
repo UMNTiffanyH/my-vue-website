@@ -7,7 +7,7 @@ import ShelfByTitle from "./common/ShelfByTitle.vue";
 <template>
 <primary-template>
   <div class="content">
-  <div class ="explain">
+  <div class="explain">
     <h1>MAIN ARCS</h1>
     <p>Much like how comic books build up to a grand, overarching narrative or
       superhero movies being connected to a larger cinematic universe, main

@@ -9,7 +9,7 @@ import ShelfByType from "./common/ShelfByType.vue";
   <primary-template>
     <div class="content">
       <div class="explain">
-        <h1>Welcome to Xerno!</h1>
+        <h1><img src="../assets/book.svg" alt="Book SVG"/> Welcome to Xerno!</h1>
         <p>Xerno is an indie creative database that takes inspiration from hero
           comics, modern manga, tv shows, and many other forms of media. This is
           an unofficial, collaborative indie work made by a team of writers and
@@ -18,11 +18,9 @@ import ShelfByType from "./common/ShelfByType.vue";
       </div>
 
       <h1> Main Arcs </h1>
-
       <shelf-by-type :type="'series'"/>
 
       <h1> Solo Comics </h1>
-
       <shelf-by-type :type="'standalone'"/>
 
       </div>
