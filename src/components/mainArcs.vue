@@ -15,16 +15,12 @@ import ShelfByTitle from "./common/ShelfByTitle.vue";
     the Xerno universe. Each arc focuses on a different main character as
     they navigate different conflicts happening in the country of Minerva. </p>
   </div>
-
     <h1> Current Arc </h1>
     <shelf-by-title :title="'Iron Maiden'"/>
-
     <h1> Bolt and the Raging Storm </h1>
     <shelf-by-title :title="'Bolt and the Raging Storm'"/>
-
     <h1> All Stars </h1>
     <shelf-by-title :title="'All Stars'"/>
-
   </div>
 </primary-template>
 </template>

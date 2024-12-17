@@ -52,11 +52,13 @@ header {
         }
 }
 
+/*just the navigation*/
 nav {
     display: flex;
     justify-content: space-evenly;
 }
 
+/*the main body in the template*/
 section.main {
     display: flex;
     flex-direction: row;
@@ -77,6 +79,7 @@ section.main {
     }
 }
 
+/*just the footer*/
 footer {
     display: flex;
     justify-content: space-between;

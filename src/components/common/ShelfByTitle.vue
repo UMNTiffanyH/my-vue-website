@@ -25,7 +25,6 @@ onMounted(() => {
   <section class="shelf-by-title" v-if="isFiltered">
     <shelf :items="filteredBooks" :title="title"/>
   </section>
-
 </template>
 
 <style scoped>

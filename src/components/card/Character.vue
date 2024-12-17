@@ -57,21 +57,17 @@ section.character {
   section:hover {
     cursor: pointer;
   }
-
     section.information {
       padding: 0.5rem;
       font-size: 12px;
-
     }
       .name, .alias {
         font-weight: bold;
       }
-
       .age {
         font-weight: lighter;
       }
     }
-
       img {
         width: 100%;
       }

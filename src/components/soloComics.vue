@@ -12,9 +12,7 @@ import ShelfByType from "./common/ShelfByType.vue";
         that focus on characters outside of the main arcs. These stories help
         further build up the Xernoverse and the people living in that world.</p>
       </div>
-
       <shelf-by-type :type="'standalone'"/>
-
       </div>
   </primary-template>
 </template>

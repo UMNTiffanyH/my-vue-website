@@ -12,7 +12,6 @@ defineProps({
     <router-link :to="{name: 'Story', params: { id: data.id }}">
       <img :src="data.cover" :alt="title"/>
      </router-link>
-
     <h4>{{ data.title }} {{ data.number }}</h4>
   </section>
 
@@ -23,12 +22,10 @@ section.dynamic-card {
   /* Mobile first */
   display: flex;
   flex-flow: column;
-
   h4 {
     display: none;
     margin: 0;
   }
-
   &:hover {
     cursor: pointer;
   }

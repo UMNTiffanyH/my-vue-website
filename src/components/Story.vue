@@ -45,7 +45,6 @@ onMounted(() => {
 h1{
   margin: 0 0 0.5rem 0;
 }
-
 img{
     display: block;
     margin-left: auto;
